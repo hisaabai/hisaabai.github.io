@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HisaabAI — your money, in simple chats</title>
+<meta name="description" content="HisaabAI: a personal expense and household-records app for Android. Your data stays on your phone.">
+<link rel="icon" href="icon-512.png">
+<style>
+  :root { --page:#F2F4F3; --tile:#fff; --text:#1F2A26; --muted:#5F6B66; --teal:#0E5A4A; --lime:#D7F25C; }
+  @media (prefers-color-scheme: dark) {
+    :root { --page:#111614; --tile:#1A211E; --text:#E6ECE9; --muted:#9AA8A2; --teal:#7FC8B4; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--page); color:var(--text);
+         font:16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width:760px; margin:0 auto; padding:48px 20px 64px; }
+  .hero { display:flex; align-items:center; gap:16px; }
+  .hero img { width:72px; height:72px; border-radius:18px; }
+  h1 { font-size:34px; margin:0; }
+  .tag { color:var(--muted); margin:4px 0 0; font-size:18px; }
+  .cards { display:grid; grid-template-columns:repeat(auto-fit, minmax(210px, 1fr)); gap:12px; margin:32px 0; }
+  .card { background:var(--tile); border-radius:14px; padding:16px 18px; }
+  .card strong { display:block; color:var(--teal); margin-bottom:4px; }
+  .privacy { background:var(--tile); border-left:4px solid var(--lime); border-radius:12px; padding:14px 20px; }
+  a { color:var(--teal); }
+  footer { margin-top:48px; color:var(--muted); font-size:14px; }
+</style>
+</head>
+<body>
+<main>
+<div class="hero">
+  <img src="icon-512.png" alt="HisaabAI icon">
+  <div>
+    <h1>HisaabAI</h1>
+    <p class="tag">Your money and household records, in simple chats.</p>
+  </div>
+</div>
+
+<div class="cards">
+  <div class="card"><strong>Expenses &amp; income</strong>Quick entries, voice entry, bank SMS paste, budgets and monthly summaries.</div>
+  <div class="card"><strong>Credits, cards &amp; EMI</strong>Who owes whom, card statements, loans and chit funds (kuri).</div>
+  <div class="card"><strong>Home &amp; life</strong>Shopping and to-do lists, reminders, documents, service history, health and habits.</div>
+  <div class="card"><strong>Reports</strong>Ready reports and your own tables, all worked out on the phone.</div>
+</div>
+
+<div class="privacy">
+  <strong>Private by design.</strong> Your data stays on your phone. Backups go only to your own
+  Google Drive. No ads, no analytics, no tracking.
+  <a href="privacy.html">Read the privacy policy</a>.
+</div>
+
+<footer>
+  Android app · Contact: <a href="mailto:team.hisaabai@gmail.com">team.hisaabai@gmail.com</a> ·
+  <a href="privacy.html">Privacy policy</a>
+</footer>
+</main>
+</body>
+</html>
