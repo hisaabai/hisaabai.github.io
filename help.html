@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HisaabAI — Help &amp; guide</title>
+<meta name="description" content="How to use HisaabAI: expenses, voice, bank SMS paste, cards, EMI, backup and more.">
+<link rel="icon" href="icon-512.png">
+<!-- Generated from docs/HELP.md by tools/make_help_html.py. Edit HELP.md, not this file. -->
+<style>
+  :root { --page:#F2F4F3; --tile:#fff; --text:#1F2A26; --muted:#5F6B66; --teal:#0E5A4A; --lime:#D7F25C; }
+  @media (prefers-color-scheme: dark) {
+    :root { --page:#111614; --tile:#1A211E; --text:#E6ECE9; --muted:#9AA8A2; --teal:#7FC8B4; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--page); color:var(--text);
+         font:16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width:760px; margin:0 auto; padding:32px 20px 64px; }
+  header { display:flex; align-items:center; gap:12px; margin-bottom:8px; }
+  header img { width:48px; height:48px; border-radius:12px; }
+  header a { color:inherit; text-decoration:none; font-weight:700; font-size:20px; }
+  h1 { font-size:28px; margin:24px 0 8px; }
+  h2 { font-size:19px; margin:36px 0 8px; color:var(--teal); }
+  h3 { font-size:16px; margin:20px 0 4px; }
+  .toc { background:var(--tile); border-radius:12px; padding:12px 20px; columns:2; }
+  .toc li { break-inside:avoid; }
+  .tip { background:var(--tile); border-left:4px solid var(--lime); border-radius:10px; padding:8px 14px; }
+  a { color:var(--teal); }
+  footer { margin-top:48px; color:var(--muted); font-size:14px; }
+</style>
+</head>
+<body>
+<main>
+<header>
+  <img src="icon-512.png" alt="">
+  <a href="./">HisaabAI</a>
+</header>
+
+<h1>Help &amp; guide</h1>
+<p>HisaabAI keeps your money and household records as simple chats. Everything is saved on your phone and works without internet. Backups go only to your own Google Drive.</p>
+<ul class="toc">
+  <li><a href="#start">Getting started</a></li>
+  <li><a href="#expenses">Expenses</a></li>
+  <li><a href="#voice">Voice entry</a></li>
+  <li><a href="#sms">Bank SMS paste</a></li>
+  <li><a href="#income">Income</a></li>
+  <li><a href="#savings">Savings &amp; Goals</a></li>
+  <li><a href="#budgets">Budgets</a></li>
+  <li><a href="#credits">Credits</a></li>
+  <li><a href="#cards">Credit Cards</a></li>
+  <li><a href="#emi">EMI &amp; Kuri</a></li>
+  <li><a href="#service">Service History</a></li>
+  <li><a href="#documents">Documents</a></li>
+  <li><a href="#trips">Trips &amp; Events</a></li>
+  <li><a href="#lists">Shopping &amp; To-do</a></li>
+  <li><a href="#health">Health &amp; Lifestyle</a></li>
+  <li><a href="#reports">Reports</a></li>
+  <li><a href="#lab">Hisaab Lab</a></li>
+  <li><a href="#summary">Month summary</a></li>
+  <li><a href="#masters">Masters</a></li>
+  <li><a href="#backup">Backup &amp; restore</a></li>
+  <li><a href="#privacy">Privacy</a></li>
+  <li><a href="#faq">Questions and answers</a></li>
+</ul>
+
+<h2 id="start">Getting started</h2>
+<ul>
+<li>Home shows your modules as chats. Tap one to open it; long-press and drag to reorder.</li>
+<li>The Hisaab icon at the top right of every screen takes you back to Home.</li>
+<li>Turn modules on or off in <strong>Profile → Modules</strong>. Turned-off modules keep their data.</li>
+<li>Amounts are in your base currency (Profile). Other currencies are saved with the rate of that day and never recalculated.</li>
+</ul>
+<p class="tip"><strong>Try this:</strong> Open Profile → Modules and turn on only what you use.</p>
+<h2 id="expenses">Expenses</h2>
+<ul>
+<li>Tap <strong>+</strong> to add an expense: date, type, amount, how you paid (cash, card, bank).</li>
+<li>The chips at the top are <strong>Quick options</strong>: one tap fills a whole entry (for example Tea 5). Add your own under <strong>Manage</strong>.</li>
+<li>Long-press entries to select and delete them. Tap the search icon to search all months.</li>
+<li>Swipe the month at the top to see older months.</li>
+</ul>
+<p class="tip"><strong>Try this:</strong> Tap a quick option chip, then Save. A whole entry in two taps.</p>
+<h2 id="voice">Voice entry</h2>
+<ul>
+<li>Tap <strong>Speak</strong> and say an expense, for example &quot;Lulu grocery 45 by card&quot;.</li>
+<li>The form opens filled in. Check it and press Save. Nothing is saved without Save.</li>
+<li>If you correct the type, HisaabAI asks &quot;Remember &#x27;lulu&#x27; as Grocery?&quot;. Yes = next time it is filled in for you. No = it is never asked again.</li>
+<li>Your phone&#x27;s own speech service turns speech into text. HisaabAI never receives the audio.</li>
+</ul>
+<p class="tip"><strong>Try this:</strong> Say &quot;tea 5&quot; and check how the form is filled.</p>
+<h2 id="sms">Bank SMS paste</h2>
+<ul>
+<li>In your Messages app, share a bank SMS to HisaabAI, or copy it and use <strong>Paste bank SMS</strong> in Expenses.</li>
+<li>The amount, currency, card, shop and date are read on your phone. The app has no SMS permission and reads only the text you give it.</li>
+<li>The same SMS twice? HisaabAI tells you it was already added.</li>
+<li>If you change the type before Save, HisaabAI asks &quot;Remember this?&quot; so the next SMS from that shop is filled in. A card picked by hand can remember its last 4 digits.</li>
+</ul>
+<p class="tip"><strong>Try this:</strong> Copy one bank SMS and paste it into Expenses.</p>
+<h2 id="income">Income</h2>
+<ul>
+<li>Salary, cashback, refunds, profit: money in. Add it with <strong>+</strong>.</li>
+<li>A bank SMS that says &quot;credited&quot; opens an income form.</li>
+</ul>
+<p class="tip"><strong>Try this:</strong> Add this month&#x27;s salary so the month summary shows what is left.</p>
+<h2 id="savings">Savings &amp; Goals</h2>
+<ul>
+<li>A pot holds cash or gold you put aside. Add money in or take it out.</li>
+<li>A goal has a target amount and date; the pot shows how far you are.</li>
+</ul>
+<p class="tip"><strong>Try this:</strong> Create a pot for an emergency fund and add the first amount.</p>
+<h2 id="budgets">Budgets</h2>
+<ul>
+<li>Set a monthly budget per type or for a group of types (for example Food = Grocery + Restaurant).</li>
+<li>You get a note at 80% and at 100% of a budget.</li>
+</ul>
+<p class="tip"><strong>Try this:</strong> Set a budget for your biggest type and watch it fill during the month.</p>
+<h2 id="credits">Credits</h2>
+<ul>
+<li>Money you lent or borrowed, one chat per person.</li>
+<li>Each entry shows the running balance. Share a reminder on WhatsApp from the chat.</li>
+</ul>
+<p class="tip"><strong>Try this:</strong> Add a person and the money you lent them.</p>
+<h2 id="cards">Credit Cards</h2>
+<ul>
+<li>Each card has its statements, due date, limit and payments.</li>
+<li>Add the card&#x27;s last 4 digits (card details) so bank SMS picks the right card.</li>
+<li>A card payment is not an expense: the purchases already are.</li>
+</ul>
+<p class="tip"><strong>Try this:</strong> Open a card and add its last 4 digits and due day.</p>
+<h2 id="emi">EMI &amp; Kuri</h2>
+<ul>
+<li>Loans and chit funds (kuri) paid in installments.</li>
+<li>See what is paid, what is left and the next due date. Reminders come before each due.</li>
+</ul>
+<p class="tip"><strong>Try this:</strong> Add a loan with its monthly amount and start date.</p>
+<h2 id="service">Service History</h2>
+<ul>
+<li>Service records for your vehicle and home (AC, plumbing, car service).</li>
+<li>Keep the date, cost, odometer and the next service due.</li>
+</ul>
+<p class="tip"><strong>Try this:</strong> Add your vehicle&#x27;s last service and set the next one.</p>
+<h2 id="documents">Documents</h2>
+<ul>
+<li>IDs, passports, warranties and contracts with their expiry dates.</li>
+<li>Attach photos or PDFs. You are reminded before a document expires.</li>
+</ul>
+<p class="tip"><strong>Try this:</strong> Add your passport with its expiry date.</p>
+<h2 id="trips">Trips &amp; Events</h2>
+<ul>
+<li>A trip or event (vacation, wedding, Umrah) collects its own spending.</li>
+<li>Post the trip&#x27;s items to Expenses when you are back; split costs between people.</li>
+</ul>
+<p class="tip"><strong>Try this:</strong> Create your next trip and add the ticket cost.</p>
+<h2 id="lists">Shopping &amp; To-do</h2>
+<ul>
+<li>Lists of things to buy and to do. Tick items off; search inside a list.</li>
+</ul>
+<p class="tip"><strong>Try this:</strong> Make a shopping list for this week.</p>
+<h2 id="health">Health &amp; Lifestyle</h2>
+<ul>
+<li>Health readings (lab values, weight, blood pressure) compared with the previous one.</li>
+<li>Daily habits you want to keep.</li>
+<li>Health data never leaves your phone, except inside your own Drive backup.</li>
+</ul>
+<p class="tip"><strong>Try this:</strong> Add your last lab report values.</p>
+<h2 id="reports">Reports</h2>
+<ul>
+<li>Ready reports: totals by type, by month, by card, budget vs actual.</li>
+<li>Everything is worked out on the phone. Share a report as CSV.</li>
+</ul>
+<p class="tip"><strong>Try this:</strong> Open &quot;Spending by type&quot; for this month.</p>
+<h2 id="lab">Hisaab Lab</h2>
+<ul>
+<li>Build your own table: choose rows (type, month, card…) and values (total, count).</li>
+<li>Save it and pin it to Home.</li>
+</ul>
+<p class="tip"><strong>Try this:</strong> Make a table of this year&#x27;s spending by month.</p>
+<h2 id="summary">Month summary</h2>
+<ul>
+<li>One page for the month: income, spending, savings, budgets and what changed.</li>
+</ul>
+<p class="tip"><strong>Try this:</strong> Open last month&#x27;s summary.</p>
+<h2 id="masters">Masters</h2>
+<ul>
+<li>Masters are your lists: expense types, subtypes, cards, people, vehicles.</li>
+<li>Edit a master to rename it or add <strong>aliases</strong> (other words for it, used by voice and bank SMS). Remove an alias there too.</li>
+<li><strong>Merge into…</strong> moves everything from one master to another (for example Dress → Clothing). It cannot be undone.</li>
+</ul>
+<p class="tip"><strong>Try this:</strong> Open Masters and add an alias you use, for example &quot;lulu&quot; for Grocery.</p>
+<h2 id="backup">Backup &amp; restore</h2>
+<ul>
+<li><strong>Profile → Back up now</strong> saves your data to your own Google Drive, in a hidden app folder only HisaabAI can read. The last 5 backups are kept.</li>
+<li>New phone or reinstall: sign in with the same Google account and choose <strong>Restore</strong>.</li>
+<li>Backups are manual. HisaabAI reminds you when the last backup is old.</li>
+</ul>
+<p class="tip"><strong>Try this:</strong> Sign in and make your first backup.</p>
+<h2 id="privacy">Privacy</h2>
+<ul>
+<li>Your data stays on your phone. No ads, no analytics, no tracking.</li>
+<li>Full policy: <a href="https://hisaabai.github.io/privacy.html">https://hisaabai.github.io/privacy.html</a></li>
+</ul>
+<h2 id="faq">Questions and answers</h2>
+<h3>Does HisaabAI work without internet?</h3>
+<p>Yes. Everything works offline. Only Google sign-in and Drive backup need internet.</p>
+<h3>Can HisaabAI see my money or my messages?</h3>
+<p>No. Your data is on your phone and in your own Drive backup. The app has no SMS permission: it reads only an SMS you share or paste.</p>
+<h3>I changed phones. How do I get my data back?</h3>
+<p>Install HisaabAI, sign in with the same Google account and choose Restore when it shows &quot;Backup found&quot;.</p>
+<h3>Why was a type filled in wrongly from voice or SMS?</h3>
+<p>The app matches words to your masters. Correct it before Save and answer Yes to &quot;Remember this?&quot;. You can also add or remove aliases in Masters.</p>
+<h3>How do I delete my data?</h3>
+<p>Uninstall the app (or clear its storage). For backups: Google Drive on the web → Settings → Manage apps → HisaabAI → Delete hidden app data.</p>
+<h3>How do I report a problem or suggest something?</h3>
+<p>Profile → Help &amp; Support → Feedback. It opens your email app with the app version filled in. Email: team.hisaabai@gmail.com</p>
+
+<footer>© 2026 HisaabAI · <a href="./">Home</a> · <a href="privacy.html">Privacy policy</a></footer>
+</main>
+</body>
+</html>
